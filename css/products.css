@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(../imges-demo/banner/Banner-Picture-if-needed-1.png);
+    background-size: cover;
+    background-color: #89c74a;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 30px 0;
+      
+}
+.banner div {
+    opacity: 0;
+    animation: textFly 1.5s forwards;
+}
+
+@keyframes textFly{
+    from{
+        opacity: 0;
+        margin-right: -500px;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.wrapper>h1{
+    color: #89c74a;
+    font-style: italic; 
+}
+.bi-lightning-fill{
+    color: #ff9800;
+}
+
+.banner-sale img{
+    margin-right: 50px;
+}
+
+.pull{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    padding: 10px;
+    border-radius: 5px;
+}
+.pull>div{
+    font-size: 23px;
+    font-weight: 500;
+    margin-right: 5px;
+    color: #89c74a;
+}
+
+.pull>button{
+   margin: 0 3px;
+}
+.pull>button:hover{
+    background-color: #89c74a;  
+ }
+
+.thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wrapper .thumbnails>div {
+    margin-bottom: 20px;
+   
+}
+
+.t-none{
+    display: none;
+}
+
+
+
+
+/*============= Tablet ===============*/
+@media all and (min-width: 768px) and (max-width: 991px){
+    .thumbnails .col-md-3 {
+        width: 50% !important;
+        height: 500px;
+       
+    }
+    .card{
+        margin: 15px;
+    }
+    .card-body{
+        height: 500px;
+    }
+    .discount{
+        width: 25%;
+    }
+    .pull h2{
+       margin-right: 20% !important;
+    }
+    .wrapper .banner-sale .row .col-md-4 img {
+        width: 95%;
+        height: 500px;
+        margin: 5px !important;
+    }
+    .wrapper .banner-sale .row .col-md-8 img {
+        height: 500px;
+        margin: 5px !important;
+    }
+
+   
+ 
+ 
+    
+   
+
+
+}
+
+
+/*=============== Mobile ===============*/
+@media all and (min-width: 320px) and (max-width: 767px){
+    .banner{
+        font-size: 16px ;
+        height: 100px;
+    }
+    .t-none{
+        display: block; 
+        color: #89c74a;
+    }
+    .discount{
+        width: 20%;
+    }
+    .pull h1{
+       display: none;
+       
+    }
+     .wrapper .banner-sale .row .col-md-8 img {
+        max-width: 100%;
+        height:350px;
+        margin: 5px !important;
+     }
+    
+    
+    
+    
+    
+
+
+}

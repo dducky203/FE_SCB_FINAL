@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(../imges-demo/banner/Banner-Picture-if-needed-1.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 30px 0;  
+}
+.banner div {
+    opacity: 0;
+    animation: textFly 2s forwards;
+}
+
+@keyframes textFly{
+    from{
+        opacity: 0;
+        margin-top: -300px;
+    }
+    to{
+        opacity: 1.5;
+    }
+}
+
+.title-fm-bl{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.btn-fm-bl{
+    font-size: 15px !important;
+    padding: 12px 30px !important;
+    margin-top: 0;
+}
+.title-left{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fmbl-right hr{
+    margin-top: 0;
+}
+
+.fmbl-right a{
+    color: rgba(0, 0, 0, 0.454);
+    font-size: 18px ;    
+}
+
+.fmbl-right a:hover{
+    color: #89c74a;  
+}
+.btn-outline-secondary{
+    margin: 3px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*============= Tablet ===============*/
+@media all and (min-width: 768px) and (max-width: 991px){
+
+
+}
+
+
+/*=============== Mobile ===============*/
+@media all and (min-width: 320px) and (max-width: 767px){
+    .banner{
+        font-size: 16px ;
+        height: 100px;
+    }
+    .title-fm-bl{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    
+    .btn-fm-bl{
+        font-size: 12px !important;
+        padding: 10px 25px !important;
+    }
+
+    .fmbl-right div .row .col-md-5  {
+        width: 170px !important;
+    }
+
+    .fmbl-right div .row .col-md-7  {
+        width: 180px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,687 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.fixed-top{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100px;
+}
+.navbar-collapse .me-auto{
+    margin-right: 80px !important;
+} 
+
+.navbar-brand{
+    margin-right: 130px !important;
+    padding-left: 250px;
+}
+
+.nav-item>a {
+    margin: 0 10px;
+    font-weight: 500;
+}
+.nav-item{
+    list-style: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #89c74a !important;
+}
+
+.dropdown-menu a:hover{
+    color: #89c74a ;
+    transition: all 0.4s;
+}
+
+.dropdown-menu>.row{
+   width: 400px;
+}
+
+.dropdown{
+    width: auto !important;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+a{
+   text-decoration: none !important;
+}
+
+.fa-heart, .fa-cart-plus, .fa-user{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgba(0,0,0,.55);
+}
+
+.collapse i:hover{
+    color: #89c74a;
+}
+
+.col-md-3 .btn-group{
+    margin-left: 80px;
+    width: 176px;
+}
+
+.col-md-3 .btn-group button{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+body main{
+    margin:150px 0;
+}
+body main>div{
+    margin: 100px 0;
+}
+
+.carousel-inner .carousel-item .carousel-caption{
+    text-align: left;
+    margin-bottom: 13%;
+    width: 30%;
+}
+
+.carousel-inner .carousel-item .carousel-caption .tb-big{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.carousel-inner .carousel-item .carousel-caption .tb-small{
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-dark{
+   margin-top: 30px;
+   padding: 20px 30px !important;
+   border-radius: 50px !important;
+   border: none !important;
+}
+
+#carouselExampleDark{
+    margin: 25px 0;
+}
+
+.btn-dark:hover{
+    background-color: #89c74a !important;
+    transition: all 0.5s;
+}
+
+.first-main{
+    margin-bottom: 100px;
+}
+.first-main .row{
+    width: 100%;
+}
+
+.fm-caption{
+   margin-top: -33%;
+   margin-left: 50px;
+}
+
+.fm-caption .t-small{
+    font-size: 20px;
+    color: #89c74a;
+}
+.fm-caption .t-big{
+    font-size: 40px;
+    font-weight: 500;
+}
+.second-main{
+    margin: 50px 0 ;
+}
+
+.m-menu-bar{
+    justify-content: space-between;
+    align-items: baseline;
+}
+.m-menu-bar p{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.m-menu-bar>button{
+    border-radius: 20px;
+    font-size: 15px;
+}
+.container hr  {
+    margin: 30px 0;
+   
+}
+
+.second-main .row div{
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    background-color: #fff;
+    cursor: pointer;
+}
+.second-main .row div:hover{
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.second-main .sc-products{
+    font-weight: 500 ;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.third-main .m-menu-bar .left-mmb{
+    font-size: 16px;
+    
+}
+.third-main .m-menu-bar .left-mmb a{
+    padding: 0 15px;
+}
+
+.third-main .m-menu-bar .left-mmb a:hover{
+    color: #89c74a !important;
+}
+.card{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.discount{
+    width: 25%;
+    color: #fff; 
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.card-body .option-hover{
+    display: flex !important;
+    justify-content: center; 
+    color: #fff; 
+    margin: 10px 0;
+}
+
+.card-body .option-hover div {
+    padding: 10px 15px;
+    margin: 0 4px;
+    background-color: #89c74a;
+    border-radius: 50%;
+    transition: all 0.5s;
+    font-size: 18px;
+}   
+   
+.card-body .option-hover div:hover{
+    background-color: black;
+} 
+
+.star{
+    color: #ff9800;
+    font-size: 20px;
+}
+
+.card .card-body div .price{
+    color: #89c74a;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card .card-body div .price del{
+    color: black ;
+    font-size: 15px;
+}
+
+.slick-prev , .slick-next{
+    display: none !important;
+}
+
+.fourth-main{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imges-demo/banner/banner-home-1-img-1-extra-large-wide.jpg);
+    background-size: cover;
+    margin: 50px 0;
+}
+.fourth-main>.m4-text{
+    width: 35%;
+    margin-left:  25%;
+    font-weight: 500; 
+    padding-top: 50px;
+}
+main .first-main .row>.col-md-6{
+    padding-left:  10px ;
+}
+
+.m4-text .f4t-center{
+    font-size: 50px;
+}
+.m4-text .f4t-bot{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sixth-main{
+    height: auto;
+    background-color: #89c74a;
+    background-image:url(../imges-demo/testumonial/testimonials-bg.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-bottom: 50px; */
+}
+.fb-title{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.sixth-main hr {
+    width: 20%;
+    height: 5px !important;
+    background-color: rgb(14, 191, 82) ;
+    border-radius: 10px;
+}
+.sixth-main .customer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.sixth-main .carousel-item .customer .feedback{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    width: 800px;
+
+}
+
+.sixth-main .customer  img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.sixth-main .customer .feedback i {
+    font-size: 15px;
+}
+
+.seventh-main{
+    background-image: url(../imges-demo/newsletter-bg.jpg);
+    background-size: cover;
+    /* margin-top: 50px; */
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seventh-main hr {
+    width: 20%;
+    height: 5px !important;
+    background-color: rgb(14, 191, 82) ;
+    border-radius: 10px;
+} 
+
+.seventh-main .container {
+    width: 55%;
+} 
+
+/* footer */
+
+
+.mx-auto .img-footer{
+    width: 60%;
+    height: 65%;
+}
+
+footer .border-bottom{
+    padding: 8px 20px !important;
+}
+
+.border-bottom .me-5 {
+   margin-top: 30px !important;
+}
+#back-top{
+    width: 50px;
+    height: 50px;
+    background-color: #88c74a58;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+}
+#back-top i:hover {
+    margin-bottom: 15px;
+    transition: all 0.5s;
+    
+}
+#back-top:hover{
+    background-color: #89c74a;
+}
+.another-logo{
+    margin: 30px 0;
+}
+.another-logo .body-logo div  {
+    width: 200px;
+    height: 170px;
+    opacity: 0.3; 
+}
+.another-logo .body-logo div:hover  {
+    opacity: 1; 
+}
+
+
+
+
+
+
+/*============= Tablet ===============*/
+@media all and (min-width: 768px) and (max-width: 991px){
+    .container-fluid{
+        justify-content: space-around !important;
+    }
+    .navbar-brand{
+        margin: 0 !important;
+        padding-left: 0; 
+       
+    }
+    .navbar-collapse {
+        background-color: #fff;
+    }
+    #navbarSupportedContent{
+         font-size: 25px;
+         padding-left: 30px;
+    }
+    .row div {
+        margin: 5px 0px;
+    }
+
+    .row div .btn-group{
+        margin: 0;
+    }
+    .phone-numb{
+        display: none;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption .tb-big{
+        font-size: 20px;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption .tb-small{
+        font-size: 12px;
+    }
+    .carousel-inner .carousel-item .carousel-caption>.btn-dark{
+        margin-top: 0;
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    
+    .fm-caption{
+        margin-top: -40% !important;
+        margin-left: 30px !important;
+    }
+    
+    .fm-caption .t-small{
+        font-size: 10px;
+    }
+    .fm-caption .t-big{
+        font-size: 20px;
+    }
+    .fm-caption p{
+        margin: 5px 0;
+    }
+    .m-menu-bar p{
+        font-size: 35px;
+    }   
+    .m-menu-bar>button{
+        font-size: 20px;
+    }
+    .second-main .sc-products{
+        font-size: 25px;
+    }
+    .third-main .slick-list .col-lg-3{
+        width: 7.8% !important;
+        height: auto;
+        margin: 5px 10px ;
+    } 
+
+    .third-main .slick-list .col-lg-3 .card{
+        height: 555px;  
+    } 
+    .discount{
+        width: 26%;
+        height: 40px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .five-main .slick-list .col-lg-3{
+        width: 7.8% !important;
+        height: auto;
+        margin: 5px 10px ;
+    } 
+
+    .five-main .slick-list .col-lg-3 .card{
+        height: 555px;  
+    } 
+    .discount{
+        width: 26%;
+        height: 40px;
+        padding: 5px;
+        font-size: 20px;
+    }
+ 
+    .card-body{ 
+        height: 450px;
+    }
+    .card-body .infor-food{
+        font-size: 30px;
+    }
+
+    .card-body .option-hover{
+        display: none !important;
+    }
+
+    .fourth-main{
+        height: 500px;
+    }
+    .fourth-main>.m4-text{
+        width: 35%;
+        margin-left:  35%;
+    }
+    
+    .m4-text .f4t-center{
+        font-size: 40px;
+    }
+
+    .fb-title{
+        font-size: 25px;
+        padding-top: 10px ;
+    }
+
+    .sixth-main .carousel-item .customer .feedback{
+        font-size: 20px;
+        width: 500px;
+    }
+    .sixth-main .customer  img{
+        width: 70px;
+        height: 70px;
+    }
+    .another-logo .body-logo div   {
+        height: auto;
+    }
+ 
+        
+
+}
+
+/*=============== Mobile ===============*/
+@media all and (min-width: 320px) and (max-width: 767px){
+    .container-fluid{
+        justify-content: space-around !important;
+    }
+
+    .navbar-brand{
+        margin: 0 !important;
+        padding-left: 0; 
+    }
+    .navbar-collapse {
+        background-color: #fff;
+    }
+    .row div {
+        margin-bottom: 8px;
+    }
+
+    .row div .btn-group{
+        margin: 0;
+    }
+    .phone-numb{
+        display: none;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption{
+        margin: 0;
+        padding: 0;
+        width: 35%;
+    }
+    .carousel-inner .carousel-item .carousel-caption p{
+        margin: 5px;
+        
+    }
+    .carousel-inner .carousel-item .carousel-caption .tb-big{
+        font-size: 12px;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption .tb-small{
+        font-size: 9px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption>.btn-dark{
+        margin-top: 0;
+        padding: 10px 15px !important;
+        font-size: 8px;
+    }
+    .fm-caption{
+        margin-top: -45% !important;
+        margin-left: 30px !important;
+    }
+    
+    .fm-caption .t-small{
+        font-size: 10px;
+    }
+    .fm-caption .t-big{
+        font-size: 20px;
+    }
+    .fm-caption p{
+        margin: 5px 0;
+    }
+    .row div img {
+        margin: 35px 0;
+    }
+    .second-main .sc-products{
+        font-size: 25px;
+    }
+    .m-menu-bar p{
+        font-size: 23px;
+    }   
+    .m-menu-bar>button{
+        font-size: 10px;
+    }
+    .third-main .slick-list .col-lg-3{
+        width: 7.9% !important;
+        height: auto;
+        margin: 5px ;
+    } 
+
+    .third-main .slick-list .col-lg-3 .card{
+        height: 450px;  
+    }
+    .five-main .slick-list .col-lg-3{
+        width: 7.9% !important;
+        height: auto;
+        margin: 5px ;
+    } 
+
+    .five-main .slick-list .col-lg-3 .card{
+        height: 450px;  
+    }
+    .slick-initialized{
+        height: 1000px;
+    }
+
+    .discount{
+        width: 50%;
+        font-size: 10px;
+    }  
+    .card-body{ 
+        height: 500px;
+    }
+    .card-body .infor-food{
+        font-size: 17px;
+    } 
+    .card-body .infor-food .price {
+        font-size: 15px !important;
+    }
+    .card-body .option-hover{
+        display: none !important;
+    } 
+
+    .fourth-main>.m4-text{
+        width: 55%;
+        margin-left:  45%;
+    }
+    
+    .m4-text .f4t-center{
+        font-size: 30px;
+    }
+    .m4-text .f4t-bot{
+        font-size: 15px;
+    }
+    main .first-main .row>.col-md-6{
+        padding: 0px ;
+    }
+
+    .fb-title{
+        font-size: 25px;
+        padding-top: 10px ;
+    }
+
+    .sixth-main .carousel-item .customer .feedback{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .sixth-main .customer  img{
+        width: 70px;
+        height: 70px;
+    }
+    .seventh-main{
+        background-color: #e2ffc1;
+        background-image: none;
+    }
+   
+    .seventh-main .fb-title{
+        font-size: 15px;
+    }
+    
+    .seventh-main .container {
+        width: 85%;
+    }
+    .another-logo .body-logo div   {
+        height: auto;
+    }
+  
+
+
+    
+    
+    
+}
+    
+ 
+ 
+
+
