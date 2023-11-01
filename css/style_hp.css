@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
-
 
 .fixed-top{
     background-color: rgba(255, 255, 255, 0.76);
@@ -48,6 +48,16 @@
 }
 .nav-item:hover .dropdown-menu {
     display: block;
+}
+.quantity{
+    padding: 2px 8px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+    margin-left: -10px;
+    margin-top: -19px;
+    position: absolute;
 }
 
 a{
@@ -116,7 +126,7 @@ body main>div{
     margin-bottom: 100px;
 }
 .first-main .row{
-    width: 100%;
+    width: 100%; 
 }
 
 .fm-caption{
@@ -193,11 +203,32 @@ body main>div{
     border-radius: 20px;
     font-size: 15px;
 }
+.card-body{
+    position: relative;
+}
 .card-body .option-hover{
+    display: none !important;
+}
+.card-body:hover .option-hover{
+    display: block !important;
     display: flex !important;
     justify-content: center; 
+    width: 90%;
     color: #fff; 
     margin: 10px 0;
+    position: absolute;
+    bottom: 135px; 
+
+}
+
+@keyframes textFly{
+    from{
+        opacity: 0;
+        margin-left: -200px;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .card-body .option-hover div {
@@ -207,6 +238,8 @@ body main>div{
     border-radius: 50%;
     transition: all 0.5s;
     font-size: 18px;
+    opacity: 0;
+    animation: textFly 1s forwards;
 }   
    
 .card-body .option-hover div:hover{
@@ -216,6 +249,12 @@ body main>div{
 .star{
     color: #ff9800;
     font-size: 20px;
+    margin-top: 10px;
+}
+.card-body .infor-food .food-name{
+    font-size: 20px ;
+    padding-top: 5px;
+    color: black;
 }
 
 .card .card-body div .price{
@@ -356,7 +395,6 @@ footer .border-bottom{
 #back-top i:hover {
     margin-bottom: 15px;
     transition: all 0.5s;
-    
 }
 #back-top:hover{
     background-color: #89c74a;
@@ -443,6 +481,10 @@ footer .border-bottom{
     .second-main .sc-products{
         font-size: 25px;
     }
+    .second-main .sc-products div{
+        width: 46.5%;
+        margin: 10px;
+    }
     .third-main .slick-list .col-lg-3{
         width: 7.8% !important;
         height: auto;
@@ -453,10 +495,10 @@ footer .border-bottom{
         height: 555px;  
     } 
     .discount{
-        width: 26%;
-        height: 40px;
+        width: 30% !important;
+        height: auto;
         padding: 5px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .five-main .slick-list .col-lg-3{
@@ -480,10 +522,12 @@ footer .border-bottom{
     }
     .card-body .infor-food{
         font-size: 30px;
+        
     }
+    
 
-    .card-body .option-hover{
-        display: none !important;
+    .card-body:hover .option-hover{
+        bottom: 200px; 
     }
 
     .fourth-main{
@@ -585,6 +629,12 @@ footer .border-bottom{
     .second-main .sc-products{
         font-size: 25px;
     }
+    .second-main .sc-products div{
+        font-size: 18px;
+    }
+    .second-main .sc-products div img{
+       margin: 5px 0;
+    }
     .m-menu-bar p{
         font-size: 23px;
     }   
@@ -592,30 +642,35 @@ footer .border-bottom{
         font-size: 10px;
     }
     .third-main .slick-list .col-lg-3{
-        width: 7.9% !important;
+        width: 295px !important;
         height: auto;
         margin: 5px ;
     } 
 
     .third-main .slick-list .col-lg-3 .card{
-        height: 450px;  
+        height: auto;  
+    }
+    .slick-list {
+        height: auto;
+    }
+
+    .star{
+        font-size: 15px;
     }
     .five-main .slick-list .col-lg-3{
-        width: 7.9% !important;
+        width: 295px !important;
         height: auto;
         margin: 5px ;
     } 
 
     .five-main .slick-list .col-lg-3 .card{
-        height: 450px;  
+        height: auto;  
     }
-    .slick-initialized{
-        height: 1000px;
-    }
+    
 
     .discount{
-        width: 50%;
-        font-size: 10px;
+        width: 25%;
+        font-size: 13px;
     }  
     .card-body{ 
         height: 500px;
@@ -626,9 +681,9 @@ footer .border-bottom{
     .card-body .infor-food .price {
         font-size: 15px !important;
     }
-    .card-body .option-hover{
-        display: none !important;
-    } 
+    /* .card-body .option-hover{
+        width: 150px;
+    }  */
 
     .fourth-main>.m4-text{
         width: 55%;

@@ -17,18 +17,20 @@
 }
 .banner div {
     opacity: 0;
-    animation: textFly 1.5s forwards;
+    animation: textFly 1.5s forwards; 
+    
 }
 
-@keyframes textFly{
+
+ @keyframes textFly{
     from{
         opacity: 0;
-        margin-left: -300px;
+        margin-left: -400px;
     }
     to{
         opacity: 1;
     }
-}
+} 
 .first-main-ab .row .col-lg-6 img{
     width: 100%;
     height: 400px;  

@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(../imges-demo/banner/Banner-Picture-if-needed-1.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 30px 0;  
+}
+.banner div {
+    opacity: 0;
+    animation: textFly 1.5s forwards; 
+    
+}
+
+
+ @keyframes textFly{
+    from{
+        opacity: 0;
+        margin-left: -400px;
+    }
+    to{
+        opacity: 1;
+    }
+} 

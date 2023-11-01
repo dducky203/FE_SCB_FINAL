@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: tahoma;
 }
 
 .banner{
@@ -31,52 +32,52 @@
         opacity: 1;
     }
 }
-.wrapper>h1{
-    color: #89c74a;
-    font-style: italic; 
-}
-.bi-lightning-fill{
-    color: #ff9800;
-}
+    .wrapper>h1{
+        color: #89c74a;
+        font-style: italic; 
+    }
+    .bi-lightning-fill{
+        color: #ff9800;
+    }
 
-.banner-sale img{
-    margin-right: 50px;
-}
+    .banner-sale img{
+        margin-right: 50px;
+    }
 
-.pull{
-    display: flex;
-    justify-content: flex-end;
-    border: 1px solid rgba(0, 0, 0, 0.258);
-    padding: 10px;
-    border-radius: 5px;
-}
-.pull>div{
-    font-size: 23px;
-    font-weight: 500;
-    margin-right: 5px;
-    color: #89c74a;
-}
+    .pull{
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid rgba(0, 0, 0, 0.258);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .pull>div{
+        font-size: 23px;
+        font-weight: 500;
+        margin-right: 5px;
+        color: #89c74a;
+    }
 
-.pull>button{
-   margin: 0 3px;
-}
-.pull>button:hover{
-    background-color: #89c74a;  
- }
+    .pull>button{
+    margin: 0 3px;
+    }
+    .pull>button:hover{
+        background-color: #89c74a;  
+    }
 
-.thumbnails{
-    display: flex;
-    flex-wrap: wrap;
+    .thumbnails{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrapper .thumbnails>div {
+        margin-bottom: 20px;
     
-}
-.wrapper .thumbnails>div {
-    margin-bottom: 20px;
-   
-}
+    }
 
-.t-none{
-    display: none;
-}
+    .t-none{
+        display: none;
+    }
 
 
 
@@ -86,11 +87,11 @@
     .thumbnails .col-md-3 {
         width: 50% !important;
         height: 500px;
-       
     }
     .card{
         margin: 15px;
     }
+    
     .card-body{
         height: 500px;
     }
@@ -109,14 +110,6 @@
         height: 500px;
         margin: 5px !important;
     }
-
-   
- 
- 
-    
-   
-
-
 }
 
 
@@ -133,8 +126,17 @@
     .discount{
         width: 20%;
     }
-    .pull h1{
+    
+    .pull h2{
        display: none;
+    }
+    .container .pull div{
+       font-size: 17px;
+       width: 50px  !important;
+       
+    }
+    .pull .btn-small{
+        height: 40px !important;
        
     }
      .wrapper .banner-sale .row .col-md-8 img {
@@ -142,11 +144,4 @@
         height:350px;
         margin: 5px !important;
      }
-    
-    
-    
-    
-    
-
-
 }

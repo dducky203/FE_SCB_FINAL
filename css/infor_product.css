@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(../imges-demo/banner/Banner-Picture-if-needed-1.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 30px 0;  
+}
+.banner div {
+    opacity: 0;
+    animation: textFly 2s forwards;
+}
+
+@keyframes textFly{
+    from{
+        opacity: 0;
+        margin-top: -300px;
+    }
+    to{
+        opacity: 1.5;
+    }
+}
+.fi-right{
+    margin-top: 40px !important;
+}
+
+.fi-right .price{
+    color: #89c74a;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.fi-right .price del{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-infor{
+    font-size: 20px;
+} 
+
+.select{
+    display: flex;
+    justify-content: space-between; 
+    padding: 30px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.select div span {
+    margin-left: 8px;
+    font-size: 17px;
+}
+   
+.set-quantity>span {
+    font-size: 20px;
+    color: #89c74a;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+
+.set-quantity button{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: 1px solid #ececec; margin: 0;
+}
+.set-quantity button:hover{
+    background-color: #ececec;
+}
+.set-quantity input{
+    width: 50px;
+    text-align: center;
+    height: 35px;
+    border: 1px solid #ececec;
+
+}
+.buy{
+    margin: 50px 0;
+}
+
+.buy .row .col-md-4{
+    height: 50px;
+    background-color: #89c74a;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.buy .row .col-md-4:hover{
+    background-color: #fff;
+    color: #89c74a;
+    border: 1px solid #89c74a;
+}
+.payment span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #89c74a;
+}
+
+/* .slick-prev , .slick-next{
+    display: block !important;
+    
+} */
+
+.slick-dots{
+    display: none !important;
+}
+
+.fi-left section div {
+    margin: 5px 0;
+}
+
+.slider-for img {
+    width: 90%;
+    height: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+}
+.slider-nav{
+    width: 90%;
+}
+/* .slider-nav div{
+    width: 90%;
+} */
+
+.slider-nav img {
+    width: 90%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+    margin-right: 20px;
+
+}
+.slider-nav img:hover {
+   border: 2px solid #89c74a ;
+
+}
+
+
+
+
+/*============= Tablet ===============*/
+@media all and (min-width: 768px) and (max-width: 991px){
+    .slider-for img {
+        width: 100%;
+        height: 600px;
+    }
+    .slider-nav{
+        width: 100%;
+    }
+    .buy{
+        margin: 50px 0 !important ;
+    }
+
+    .buy .row .col-md-4{
+        margin-right: 20px;
+        
+    }
+    
+   
+
+
+}
+
+
+/*=============== Mobile ===============*/
+@media all and (min-width: 320px) and (max-width: 767px){
+    .banner{
+        font-size: 16px ;
+        height: 100px;
+    }
+    .slider-for img {
+        width: 99%;
+        height: 400px;
+    }
+    .slider-nav{
+        width: 100%;
+    }
+    .slider-nav img {
+        height: 100px;
+    }
+
+    .first-info{
+        text-align: center;
+    }
+    .select{
+        padding: 30px 0px;
+        font-size: 20px;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+    .select div  {
+       width: 50%;  
+    }
+    
+    .select div span {
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    .row , .set-quantity{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy .row .col-md-4{
+        width: 35%;
+        margin-left: 5px ;
+        height: 40px;
+        font-size: 15px;
+    }
+}
