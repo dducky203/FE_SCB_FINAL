@@ -15,6 +15,16 @@ $(document).ready(function () {
         centerMode: true,
         focusOnSelect: true
       });
+      // $('#rateMe1').mdbRate();
+      $(".my-rating-4").starRating({
+        totalStars: 5,
+        starShape: 'rounded',
+        starSize: 40,
+        emptyColor: 'lightgray',
+        hoverColor: 'salmon',
+        activeColor: 'crimson',
+        useGradient: false
+      });
 
     
 

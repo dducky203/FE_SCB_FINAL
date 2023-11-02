@@ -18,8 +18,8 @@
 } 
 
 .navbar-brand{
-    margin-right: 125px !important;
-    padding-left: 250px;
+    margin-right: 115px !important;
+    padding-left: 245px !important;
 }
 
 .nav-item>a {
@@ -274,7 +274,8 @@ body main>div{
 .fourth-main{
     width: 100%;
     height: 500px;
-    background-image: url(../imges-demo/banner/banner-home-1-img-1-extra-large-wide.jpg);
+    /* background-image: url(../imges-demo/banner/banner-home-1-img-1-extra-large-wide.jpg); */
+    background-image: url(../images/banner/banner5.png);
     background-size: cover;
     margin: 50px 0;
 }
@@ -402,6 +403,7 @@ footer .border-bottom{
 .another-logo{
     margin: 30px 0;
     height: 100px;
+    height: 90px;
 }
 .another-logo .body-logo div  {
     width: 200px;
@@ -424,7 +426,7 @@ footer .border-bottom{
     }
     .navbar-brand{
         margin: 0 !important;
-        padding-left: 0; 
+        padding-left: 0 !important; 
        
     }
     .navbar-collapse {
@@ -436,6 +438,10 @@ footer .border-bottom{
     }
     .row div {
         margin: 5px 0px;
+    }
+    .search>.row{
+        display: flex;
+        justify-content: center;
     }
 
     .row div .btn-group{
@@ -571,7 +577,8 @@ footer .border-bottom{
 
     .navbar-brand{
         margin: 0 !important;
-        padding-left: 0; 
+        padding-left: 0 !important; 
+
     }
     .navbar-collapse {
         background-color: #fff;
@@ -579,6 +586,7 @@ footer .border-bottom{
     .row div {
         margin-bottom: 8px;
     }
+    
 
     .row div .btn-group{
         margin: 0;
@@ -586,11 +594,14 @@ footer .border-bottom{
     .phone-numb{
         display: none;
     }
+    .carousel-inner .carousel-item>img{
+        height: 220px;
+    }
     
     .carousel-inner .carousel-item .carousel-caption{
-        margin: 0;
         padding: 0;
         width: 35%;
+        
     }
     .carousel-inner .carousel-item .carousel-caption p{
         margin: 5px;
