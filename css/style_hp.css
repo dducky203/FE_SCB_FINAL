@@ -19,7 +19,7 @@
 
 .navbar-brand{
     margin-right: 115px !important;
-    padding-left: 245px !important;
+    padding-left: 165px !important;
 }
 
 .nav-item>a {
@@ -93,7 +93,7 @@ body main>div{
 
 .carousel-inner .carousel-item .carousel-caption{
     text-align: left;
-    margin-bottom: 13%;
+    margin-bottom: 9%;
     width: 30%;
 }
 
