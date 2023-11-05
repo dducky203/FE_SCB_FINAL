@@ -165,7 +165,7 @@ body main>div{
 }
 
 .second-main .row div{
-    border: 1px solid rgba(0, 0, 0, 0.29);
+    border: 1px solid rgba(0, 0, 0, 0.074);
     background-color: #fff;
     cursor: pointer;
 }
@@ -205,6 +205,7 @@ body main>div{
 }
 .card-body{
     position: relative;
+    
 }
 .card-body .option-hover{
     display: none !important;
@@ -488,7 +489,7 @@ footer .border-bottom{
         font-size: 25px;
     }
     .second-main .sc-products div{
-        width: 46.5%;
+        width: 30%;
         margin: 10px;
     }
     .third-main .slick-list .col-lg-3{
@@ -577,8 +578,17 @@ footer .border-bottom{
 
     .navbar-brand{
         margin: 0 !important;
-        padding-left: 0 !important; 
+        padding-left: 0 !important;
+         
 
+    }
+    .navbar-brand img{
+        height: 40px;
+        width: auto;
+    }
+    .navbar-toggler {
+        height: 25px !important;
+        font-size: 10px !important;
     }
     .navbar-collapse {
         background-color: #fff;
@@ -638,19 +648,37 @@ footer .border-bottom{
         margin: 35px 0;
     }
     .second-main .sc-products{
+        
         font-size: 25px;
     }
     .second-main .sc-products div{
-        font-size: 18px;
+        font-size: 11px;
+        width: px;
+        margin: 10px;
     }
     .second-main .sc-products div img{
        margin: 5px 0;
+       width: 100%;
+       object-fit: cover ;
     }
     .m-menu-bar p{
         font-size: 23px;
     }   
     .m-menu-bar>button{
         font-size: 10px;
+    }
+    .third-main{
+        overflow: hidden !important;
+    }
+
+    .third-main p{
+        font-size: 14px;
+
+    }
+    .m-menu-bar .left-mmb a{
+        font-size: 12px;
+        padding: 0 5px !important;
+
     }
     .third-main .slick-list .col-lg-3{
         width: 295px !important;
@@ -677,6 +705,15 @@ footer .border-bottom{
     .five-main .slick-list .col-lg-3 .card{
         height: auto;  
     }
+    /* .card .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .card .card-body img{
+        height: 40%;
+       
+        
+    }  */
     
 
     .discount{
@@ -741,8 +778,12 @@ footer .border-bottom{
         height: auto;
     }
   
-
-
+ 
+    .sc-products .col-lg-2 {
+        width: 22%!important;
+        padding: 0!important;
+        margin:2px auto!important;
+    }
     
     
     

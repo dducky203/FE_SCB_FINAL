@@ -19,7 +19,8 @@
     opacity: 0;
     animation: textFly 1.5s forwards; 
     
-}
+}  
+
 
 
  @keyframes textFly{

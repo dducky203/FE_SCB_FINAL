@@ -29,6 +29,7 @@
         opacity: 1.5;
     }
 }
+
 .fi-right{
     margin-top: 40px !important;
 }
@@ -131,6 +132,7 @@
     width: 90%;
     height: 550px;
     border: 1px solid rgba(0, 0, 0, 0.167);
+    object-fit: cover;
 }
 .slider-nav{
     width: 90%;
